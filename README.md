@@ -1,76 +1,137 @@
 <div>
-  <h1>GymZone – Modern Fitness & Gym Website</h1>
+  <h1>GymZone – Fitness Website</h1>
 
   <p>
-    A professional fitness gym landing page template, <br />
-    built using HTML, CSS, and JavaScript. Fully responsive design for all devices.
+    <strong>About the Project:</strong>
+    GymZone is a modern, fully responsive gym and fitness website built with HTML, CSS, and JavaScript. It showcases fitness classes, trainer profiles, blog posts, and contact details — designed to represent a professional gym brand online.
   </p>
 
   <p>
-    <strong>Note:</strong> I started building HTML, CSS, and JavaScript projects in 2022. <br />
-    At that time, I focused on learning first and began uploading to GitHub recently. <br />
-    Now I'm working with React.js and Next.js, and seeking opportunities as a frontend or web developer.
+    <strong>Key Highlights:</strong>
+    Clean layout with smooth animations, mobile-first responsive design, interactive navigation, and a polished UI that works across all screen sizes.
   </p>
 </div>
 
-## What's Inside
-- `index.html` — complete website structure with semantic markup
-- `assets/css/style.css` — comprehensive styling with `:root` CSS variables for easy customization
-- `assets/js/script.js` — mobile navigation toggle, scroll-based header animations, and back-to-top functionality
-- `assets/images/` — hero banners, class photos, blog images, coach avatars, decorative elements, and UI icons
+<details open>
+  <summary><h2>Project Details</h2></summary>
 
-## Technologies Used
-HTML5 · CSS3 · Vanilla JavaScript · Google Fonts (Catamaran, Rubik) · Ionicons
+  <details>
+    <summary><h4>What's Inside</h4></summary>
+    <ul>
+      <li><strong>Header & Navigation</strong> — Sticky header with responsive mobile menu toggle</li>
+      <li><strong>Hero Section</strong> — Full-screen banner with headline, text, and CTA button</li>
+      <li><strong>About Section</strong> — Gym intro with trainer profile and animated banner image</li>
+      <li><strong>Video Section</strong> — Promotional video card with animated play button</li>
+      <li><strong>Classes Section</strong> — Scrollable fitness class cards with progress indicators</li>
+      <li><strong>Blog Section</strong> — Latest news cards with date badges and read more links</li>
+      <li><strong>Footer</strong> — Brand info, navigation links, contact details, and newsletter form</li>
+      <li><strong>Back to Top Button</strong> — Smooth scroll button that appears on page scroll</li>
+    </ul>
+  </details>
 
-## Features
-- Fully responsive layout across mobile, tablet, and desktop screens
-- Animated header with scroll-triggered visibility
-- Mobile navigation menu with smooth toggle functionality
-- Hero section with animated floating elements
-- Fitness classes showcase with progress indicators
-- Video section with interactive play button
-- Blog articles display with hover effects
-- Newsletter subscription form with icon integration
+  <details>
+    <summary><h4>Key Features</h4></summary>
+    <ul>
+      <li><strong>Responsive Design</strong> — Fully optimized layout for mobile, tablet, and desktop</li>
+      <li><strong>Sticky Header</strong> — Header changes style dynamically when the user scrolls</li>
+      <li><strong>Mobile Navigation</strong> — Hamburger menu toggles full-screen overlay on mobile</li>
+      <li><strong>CSS Animations</strong> — Rotating circles, floating images, and pulsing play button</li>
+      <li><strong>Horizontal Scrollbar</strong> — Smooth snap scrolling for class and blog card lists</li>
+      <li><strong>Progress Bars</strong> — Visual class capacity indicators inside each class card</li>
+      <li><strong>Back to Top</strong> — Scroll-triggered button for quick return to the top of the page</li>
+    </ul>
+  </details>
 
-## Quick Start
-1. **Clone the repository:**  
-   ```bash
-   git clone https://github.com/nawazdevx/gym-zone.git
-   ```
+  <details>
+    <summary><h4>Technologies Used</h4></summary>
+    <ul>
+      <li><strong>HTML5</strong> — Semantic markup used to structure all page sections cleanly</li>
+      <li><strong>CSS3</strong> — Custom properties, animations, flexbox, and grid for layout</li>
+      <li><strong>JavaScript (ES6)</strong> — Handles nav toggle, header scroll, and back-to-top logic</li>
+      <li><strong>Google Fonts</strong> — Catamaran and Rubik fonts for consistent modern typography</li>
+      <li><strong>Ionicons</strong> — Icon library used for UI icons throughout the website</li>
+    </ul>
+  </details>
 
-2. **Open the project:**  
-   - Simply open `index.html` in your browser  
-   - Or run a local server:  
-     ```bash
-     python -m http.server 3000
-     ```
-     Then visit `http://localhost:3000`
+  <details>
+    <summary><h4>Project Structure</h4></summary>
+    <pre>
+gym-zone/
+│
+├── index.html                 # Main HTML structure with all sections
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css          # Complete styles, animations, and responsive design
+│   │
+│   ├── js/
+│   │   └── script.js          # Navigation toggle, header scroll, back-to-top functionality
+│   │
+│   └── images/                # Hero banners, class images, blog photos, and icons
+│
+└── README.md                  # Project documentation
+    </pre>
+  </details>
 
-## Customization
-- Update text content and meta descriptions in `index.html` to match your gym's information
-- Replace images in `assets/images/` folder (maintain consistent dimensions for best results)
-- Modify color scheme using `:root` CSS variables at the beginning of `style.css`
-- Adjust section layouts and spacing with well-organized, commented code structure
-- Integrate the newsletter form with email services like Mailchimp, Formspree, or custom backend solutions
+  <details>
+    <summary><h4>Quick Start</h4></summary>
+    <ol>
+      <li>
+        <strong>Clone the repository:</strong>
+        <pre><code>git clone https://github.com/nawazdevx/gym-zone.git</code></pre>
+      </li>
 
-## License
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+      <li>
+        <strong>Open the project:</strong>
+        <ul>
+          <li>Open <code>index.html</code> directly in your browser</li>
+          <li>Or run a local server:</li>
+        </ul>
+        <pre><code>python -m http.server 3000</code></pre>
+        Then visit <code>http://localhost:3000</code>
+      </li>
 
-## Contact
-If you want to contact me, you can reach me at [LinkedIn](https://www.linkedin.com/in/nawazdevx).
+      <li>
+        <strong>Start Customizing:</strong>
+        <ul>
+          <li>Update gym name, tagline, and hero text in <code>index.html</code></li>
+          <li>Replace class images and blog photos inside <code>assets/images/</code></li>
+          <li>Edit class names, descriptions, and progress values in <code>index.html</code></li>
+          <li>Change colors and fonts using CSS variables in <code>style.css</code></li>
+          <li>Update contact details, social links, and footer info in <code>index.html</code></li>
+        </ul>
+      </li>
+    </ol>
 
-## Support
-If you find this project useful, please consider starring it on GitHub ⭐ to show your support!
+  </details>
+</details>
+
+<p>
+  <strong>License:</strong>
+  This project is licensed under the <a href="https://choosealicense.com/licenses/mit/">MIT License</a>.
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  Connect with me on <a href="https://www.linkedin.com/in/nawazdevx">LinkedIn</a> or visit my <a href="https://nawazdevx.vercel.app/">Portfolio</a>.
+</p>
+
+<p>
+  <strong>Support:</strong>
+  Found this helpful? Give it a ⭐ on GitHub! Thank you.
+</p>
 
 <br />
 
-<div align="center">
-  <h1>Project Preview</h1>
-  
+<div>
+  <h2>Project Preview</h2>
+
   <p>
-    You can view the live project here ➜
-    <a href="https://nawazdevx.github.io/gym-zone/" target="_blank"><strong>Live Demo</strong></a>
+    <strong>Live project ➜</strong>
+    <a href="https://nawazdevx.github.io/gym-zone/" target="_blank">
+      <strong>Live Demo</strong>
+    </a>
   </p>
 
-  <img src="./assets/images/readme-image.png" alt="Desktop Demo" />
+  <img src="./assets/images/readme-image.png" alt="Desktop Preview" />
 </div>
